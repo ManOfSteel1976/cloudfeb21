@@ -24,7 +24,7 @@ ganador = db['ganador']
 correo = "-"
 numencontrados = 0
 
-# Definicion de metodos para endpoints
+# Definicion de metodos para endpoints, ok?
 
 @app.route('/', methods = ['GET', 'POST'])
 def newUser():
